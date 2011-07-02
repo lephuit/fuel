@@ -179,6 +179,7 @@ return array(
 		 */
 		'packages'	=> array(
 			//'orm',
+			'smarty'
 		),
 
 		/**
@@ -194,7 +195,7 @@ return array(
 		/**
 		 * Classes to autoload & initialize even when not used
 		 */
-		'classes'	=> array(),
+		'classes'	=> array('Library_Smarty'),
 
 		/**
 		 * Configs to autoload
